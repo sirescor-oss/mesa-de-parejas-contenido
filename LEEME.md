@@ -10,7 +10,12 @@ Cada lunes, una tarea automática añade aquí refranes, objetos y curiosidades 
 - `refranes`: por país (`es`, `mx`, `co`, `ar`, `cl`, `en`, `br`, `it`, `fr`, `de`, `nl`, `pl`).
   Cada refrán es `["principio", "final", "significado"]`.
 - `objetos`: `["emoji", "categoría", "es", "en", "pt", "it", "fr", "de", "nl", "pl"]`.
-  Categorías válidas: `fruta`, `animal`, `cocina`, `ropa`, `transporte`, `musica`.
+  Categorías: `fruta`, `animal`, `cocina`, `ropa`, `transporte`, `musica` o una de `categorias`.
+- `categorias`: categorías nuevas para «El intruso» y «Lo que había en la mesa»:
+  `"id": {"es": "...", "en": "...", "pt": "...", "it": "...", "fr": "...", "de": "...", "nl": "...", "pl": "..."}`
+  (id en minúsculas sin acentos; se usa en «El intruso» cuando tiene 5 objetos o más).
+- `parejas`: parejas nuevas para «Van juntas»:
+  `[["emoji","es","en","pt","it","fr","de","nl","pl"], ["emoji", ...8 nombres], {"es": "frase", ...8 idiomas}]`.
 - `curiosidades`: por idioma (`es`, `en`, `pt`, `it`, `fr`, `de`, `nl`, `pl`), una frase cada una.
 
 La app descarta cualquier entrada mal formada, repetida o con los signos `<` o `>`.

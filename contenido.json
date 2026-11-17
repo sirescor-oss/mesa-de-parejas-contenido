@@ -2,11 +2,30 @@
   "version": 1,
   "actualizado": "2026-11-17",
   "refranes": {
-    "es": [], "mx": [], "co": [], "ar": [], "cl": [],
-    "en": [], "br": [], "it": [], "fr": [], "de": [], "nl": [], "pl": []
+    "es": [],
+    "mx": [],
+    "co": [],
+    "ar": [],
+    "cl": [],
+    "en": [],
+    "br": [],
+    "it": [],
+    "fr": [],
+    "de": [],
+    "nl": [],
+    "pl": []
   },
   "objetos": [],
   "curiosidades": {
-    "es": [], "en": [], "pt": [], "it": [], "fr": [], "de": [], "nl": [], "pl": []
-  }
+    "es": [],
+    "en": [],
+    "pt": [],
+    "it": [],
+    "fr": [],
+    "de": [],
+    "nl": [],
+    "pl": []
+  },
+  "categorias": {},
+  "parejas": []
 }
